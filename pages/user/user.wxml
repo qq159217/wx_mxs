@@ -1,0 +1,43 @@
+<view class = "user">
+  <image class="userinfo-avatar" src= "{{avatarUrl}}" background- size="cover" > </image>
+  <text class="userinfo-nickname"> {{nickName}}</text>
+  <image class="userinfo-gender" src= "../../images/gender/{{gender}}.jpg" background- size="cover" >     </image>
+</view>
+
+<text>\n</text>
+<view class="ul ul-user">
+    <navigator class="li u-arrow right" url="">
+        <view class="li-hd"><icon class="u-icon icon-mbean" src = '/images/icon/arrow.png'></icon></view>
+        <view class="li-bd">
+            <text>积分</text>
+            <view class="tip-fly">购买咖啡可以获取积分哦！</view>
+        </view>
+        <view class="li-ft txt-gray">{{bonus}}</view>
+    </navigator>
+    <navigator class="li u-arrow right" url="" bindtap="openMap">
+        <view class="li-hd"><icon class="u-icon icon-coupon"></icon></view>
+        <view class="li-bd">附近的咖啡机</view>
+  
+        <view class="li-ft"><text class="txt-gray">{{couponCount}}</text></view>
+    </navigator>
+    <navigator class="li u-arrow right" url="">
+        <view class="li-hd"><icon class="u-icon icon-address"></icon></view>
+        <view class="li-bd">关联的人</view>
+    </navigator>
+
+</view>
+
+
+<view class="ul ul-user">
+    <navigator class="li u-arrow right" url="/pages/custom_service/custom_service">
+        <view class="li-hd"><icon class="u-icon icon-service"></icon></view>
+        <view class="li-bd">联系客服</view>
+    </navigator>
+</view>
+
+<view class="ul ul-user">
+    <navigator class="li u-arrow right" url="/pages/help/help">
+        <view class="li-hd"><icon class="u-icon icon-service"></icon></view>
+        <view class="li-bd">帮助中心</view>
+    </navigator>
+</view>

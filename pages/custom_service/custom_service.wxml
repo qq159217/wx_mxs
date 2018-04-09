@@ -1,0 +1,5 @@
+<!--pages/custom_service/custom_service.wxml-->
+<text>
+维修人员电话：123456789
+公司电话：8888888
+</text>

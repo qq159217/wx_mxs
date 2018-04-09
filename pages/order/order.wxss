@@ -1,0 +1,129 @@
+page {
+  background-color: #f0f0f0;
+}
+.notice {
+    width:28rpx;
+    height:28rpx;
+    color:#fff;
+    text-align:center;
+    background-color:#ec9e14;
+    border-radius:50%;
+    position:absolute;
+    float:left;
+    top:5rpx;
+    font-size: 15rpx;
+    right:30rpx;
+    line-height:30rpx; }
+
+.navbar{ 
+ flex: none; 
+ display: flex; 
+ background: #fff; 
+ height: 90rpx;
+} 
+.navbar .item{ 
+ position: relative; 
+ flex: auto; 
+ text-align: center;
+ line-height: 90rpx; 
+ font-size: 35rpx;
+ color: #000;
+} 
+.navbar .item.active{ 
+ color: #479fb1; 
+ font-size: 35rpx;
+} 
+.navbar .item.active:after{ 
+ content: ""; 
+ display: block; 
+ position: absolute; 
+ bottom: 0; 
+ left: 0; 
+ right: 0; 
+ height: 6rpx; 
+ background: #479fb1; 
+ font-size: 24rpx;
+ color: #666666;
+}
+
+.main{
+  margin-top: 15rpx;
+  scroll-y: true;
+  background: #fff;
+  flex-direction: column;
+}
+.demo{
+  display: flex;                /*设置为flex布局*/
+  justify-content: space-around;
+}
+.demo > div{
+  flex: none;
+}
+.left{
+  width:321.1rpx;
+  height:327.47rpx;
+}
+.right{
+  width: 428.9rpx;
+  height: 327.47rpx;
+}
+.btn{
+margin-right: 27.28rpx;
+width: 125rpx;
+height: 62.5rpx;
+border-radius: 8.3rpx;
+background-color: rgba(76, 166, 186, 1);
+color: rgba(255, 255, 255, 1);
+font-size: 27rpx;
+text-align: center;
+box-shadow: 0rpx 0rpx 2.08rpx 0rpx rgba(76, 166, 186, 1);
+font-family: Microsoft Yahei;
+border: 2.08rpx solid rgba(255, 255, 255, 1);
+}
+.goods{
+  width:292rpx;
+  height:292rpx;
+  margin-left: 29.1rpx;
+  margin-top: 6.25rpx;
+}
+
+.cut{
+  margin-left: 31.25rpx;
+  margin-top: 14.5rpx;
+}
+.point{
+  color: rgba(76, 166, 186, 1);
+
+ 
+
+}
+
+.price_pos{
+margin-left: 66rpx;
+width: 68.75rpx;
+height: 56.25rpx;
+line-height: 45.8rpx;
+color: rgba(76, 166, 186, 1);
+font-size: 31.25rpx;
+text-align: center;
+font-family: Roboto;
+
+}
+
+
+.mach {
+  width: 100%;
+  display: flex;  
+  flex-direction: row;  
+}
+
+.cut_text{
+width: 168.75rpx;
+height: 60.4rpx;
+line-height: 60.4rpx;
+color: rgba(16, 16, 16, 1);
+font-size: 41.6rpx;
+text-align: center;
+font-family: Roboto;
+
+}

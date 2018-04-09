@@ -1,0 +1,9 @@
+<!--pages/advertisement/advertisement.wxml-->
+<image class = 'image_1' src = '{{ad}}' mode = 'scaleToFill'></image>
+<text class = 'introduce'>
+七月流火，青春正当时。好享咖推出“大灌篮”系列活动！
+即日起，在杭州任一好享咖咖啡机购买“大灌篮”系列咖啡，即可参与抽奖。
+丰厚奖品等着你，更有与NBA巨星库里与詹姆斯面对面互动，共饮咖啡的机会！
+事不宜迟，赶紧来参加吧！
+
+</text>

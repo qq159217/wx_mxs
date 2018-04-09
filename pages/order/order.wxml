@@ -1,0 +1,40 @@
+<view class="navbar" style=" z-index:50">
+  <view wx:for="{{navbar}}" data-idx="{{index}}" wx:key="unique" class="item {{currentTab==index ? 'active' : ''}}" bindtap="navbarTap">
+    <view class="notice" wx:if="{{count[index]>0}}">{{count[index]}}</view>
+    {{item}}
+  </view>
+</view>
+
+<scroll-view hidden="{{currentTab !== 0}}" class="main" style="height: {{height}}px">
+<view>
+  <view class = "">
+      <view class = 'demo'>
+      <view class = 'left'>
+      <image class = "image" src = "{{good}}" class = 'goods'></image>
+      </view>
+      <view class = 'right'>
+      <view><text class = 'cut'><text class = 'point'>● </text><text class = 'cut_text'>美式咖啡</text></text></view>
+      
+      <text class ='price_pos'>\n\n\n</text>
+      <view class = 'mach'>      
+        <text class ='price_pos'>￥15</text>
+        <button class = 'btn' bindtap=''>付款</button>
+        
+
+
+
+
+ 
+      </view>
+      </view>
+    </view>
+  </view>
+  </view>
+
+</scroll-view>
+<scroll-view hidden="{{currentTab !== 1}}" class="main" style="height: {{height}}px">
+
+</scroll-view>
+<scroll-view hidden="{{currentTab !== 2}}" class="main" style="height: {{height}}px">
+
+</scroll-view>

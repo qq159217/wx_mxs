@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order/order",
+    "pages/user/user",
+    "pages/advertisement/advertisement",
+    "pages/help/help",
+    "pages/custom_service/custom_service",
+    "pages/map/map"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#479fb1",
+    "navigationBarTitleText": "好享咖",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#fff",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#479fb1",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "商城",
+        "iconPath": "images/icon/normal/index.jpg",
+        "selectedIconPath": "images/icon/select/index.jpg"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "images/icon/normal/order.jpg",
+        "selectedIconPath": "images/icon/select/order.jpg"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我",
+        "iconPath": "images/icon/normal/user.jpg",
+        "selectedIconPath": "images/icon/select/user.jpg"
+      }
+    ]
+  }
+}

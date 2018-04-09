@@ -1,0 +1,13 @@
+/* pages/advertisement/advertisement.wxss */
+.introduce{
+width: 687.5rpx;
+height: 687.5rpx;
+line-height: 39.5rpx;
+color: rgba(136, 136, 136, 1);
+font-size: 27rpx;
+text-align: center;
+font-family: Roboto;
+}
+.image_1{
+  width:100%;
+}
